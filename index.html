@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
   <title>Desencriptador</title>
 </head>
 
@@ -15,7 +20,7 @@
     <main>
       
       <section class="seccionA">
-        <div cajaTextoA>
+        <div class="cajaTextoA">
           <textarea placeholder="Ingresse el texto aqui" class="areaTexto"></textarea>
           <div class="alerta">
             
@@ -29,8 +34,18 @@
         </div>
       </section>
       <section class="seccionB">
-        <div>
-          <img src="Imagenes/pesonaje.svg"
+        <div class="personaje">
+          <img src="Imagenes/personaje.svg" alt="personaje" class="imgPersonaje">
+        </div>
+        <div class="h31">
+          <h3>Ningun mensaje fué encontrado</h3>
+        </div>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        <div class="cajaCopiar">
+          <input type="button" class='botonCopiar' value="Copiar">
+        </div>
+        <div class="resultado">
+          <p></p>
         </div>
       </section>
     </main>

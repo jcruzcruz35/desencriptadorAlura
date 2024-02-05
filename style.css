@@ -1,0 +1,163 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background: #f4f4fc;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+}
+.logo{
+  width: 100px;
+  height: 50%;
+  padding:20px 0 0 40px;
+  
+}
+
+main{
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cajaTextoA{
+  position: absolute;
+  left: 20px;
+  top: 100;
+  padding: 0 0 0 100px;
+  width: 1080px;
+  height: 600px;
+}
+
+.areaTexto{
+  width: 50%;
+  height: 80%;
+  border: none;
+  background: #f4f4fc;
+  cursor: pointer;
+  color: #0a3871;
+  font-size: 32;
+  font-weight: 400px;
+}
+
+.areaTexto:placeholder{
+  color: #495057;
+}
+
+.alerta{
+  position: absolute;
+  top: 800px;
+  left: 370px;
+  display: flex;
+  padding: 15px 0 0 15%;
+  
+}
+
+.contenedorBotones{
+  position: absolute;
+  top: 800px;
+  height: 80px;
+  padding: 15px 0 0 15%;
+}
+
+.botonEncriptar, .botonDesencriptar{
+  width: 320px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #0a3871;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.seccionB{
+  display: block;
+  position: relative;
+  width: 400px;
+  height: 940;
+  right: 400px;
+  padding: 0 20px 0 0;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.personaje{
+  position: absolute;
+  left: 30px;
+  top: 180px;
+  box-sizing: border-box;
+  padding: 50px 0 0 0;
+}
+
+.h31{
+  position: absolute;
+  box-sizing: border-box;
+  top: 570;
+  left: 40px;
+  
+}
+
+.h31 h3{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #343440;
+}
+
+.h31 p{
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #495057;
+  padding: 20px 0 0 0;
+}
+
+.resultado{
+  position: absolute;
+  bottom: 410px;
+  width: 320;
+  height: 450px;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 0 0 25px;
+}
+
+.resultado p{
+  color: #495057;
+  font-size: 25px;
+}
+
+.cajaCopia{
+  display: flex;
+  position: absolute;
+  bottom: 400px;
+  top: 700;
+  background-color: aqua;
+  padding: 0 0 0 40px;
+}
+
+.botonCopiar{
+  width: 320px;
+  height: 67px;
+  top: 100px;
+  right: 4px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  color: #0a3871;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #0a3871;
+  cursor: pointer;
+  position: relative;
+}
+
