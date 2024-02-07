@@ -99,7 +99,7 @@ main{
   padding: 50px 0 0 0;
 }
 
-.h31{
+.encriptado{
   position: absolute;
   box-sizing: border-box;
   top: 570;
@@ -107,14 +107,14 @@ main{
   
 }
 
-.h31 h3{
+.encriptado h3{
   font-size: 24px;
   font-weight: 700;
   text-align: center;
   color: #343440;
 }
 
-.h31 p{
+.encriptado p{
   font-weight: 400;
   font-size: 16px;
   text-align: center;

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="alterstyle.css">
+  <link rel="stylesheet" href="tercerstyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
@@ -19,36 +19,40 @@
     
     <main>
       
-      <section class="seccionA">
+   <div class="seccionA">
+        
         <div class="cajaTextoA">
           
-          <textarea placeholder="Ingresse el texto aqui" class="areaTexto"></textarea>
-          
+          <textarea placeholder="Ingrese el texto aqui" class="areaTexto"></textarea>
+        </div>
+        
           <div class="alerta">
             <img src="Imagenes/alerta.svg" alt="icono de alerta">
+          </div>
+          
+            <div class="cajaCondiciones">
             <p>Solo letras minisculas y sin acentos</p>
-          </div>
-          
+            </div>
+            
           <div class="contenedorBotones">
-            <input type="button" class="botonEncriptar" value="Encriptar">
-            <input type="button" class="botonDesencriptar" value="Desencriptar">
+            <input type="button" class="botonEncriptar" value="Encriptar" onclick="encriptar()">
+            <input type="button" class="botonDesencriptar" value="Desencriptar" onclick="desencriptar()">
           </div>
           
-        </div>
-      </section>
       
       
-      <section class="seccionB">
+      <div class="encriptado">
         
-          <div class="personaje">
             <img src="Imagenes/personaje.svg" alt="personaje" class="imgPersonaje">
-          </div>
           
-          <div class="h31">
+          <div class="mensajeEncriptado">
             <h3>Ningun mensaje fué encontrado</h3>
             <p>Ingresa el texto que desees encriptar o desencriptar</p>
+         <!--   <textarea name="mensaje" id="mensaje" class="mensaje" cols="30" rows="10"></textarea>-->
           </div>
-          
+      </div>     
+      
+      
           <div class="cajaCopiar">
             <input type="button" class='botonCopiar' value="Copiar">
           </div>
@@ -56,9 +60,12 @@
           <div class="cajaResultado">
             <p class="resultado"></p>
           </div>
+          
+     </div>
         
-      </section>
+
+
     </main>
 </body>
-
+<script src=""></script>
 </html>
