@@ -1,7 +1,8 @@
 function encriptar() {
   let texto = document.getElementById("texto").value;
-  let tituloMensaje = document.getElementById()
-  let parrafo = document.getElementById()
+  let tituloMensaje = document.getElementById("titulo");
+  let parrafo = document.getElementById("parrafoTitulo");
+  let personaje = document.getElementById("imgPersonaje");
   
   let textoCifrado = texto
         .replace(/e/gi, "enter")
@@ -14,5 +15,15 @@ function encriptar() {
     texto + textoCifrado;
     tituloMensaje.textContent = "Texto encriptado con exito";
     parrafo.textContent = "";
+    
+    if(texto.length !=0){
+      texto = textoCifrado;
+      tituloMensaje.textContent = "Texto encriptado con exito.";
+      parrafo.textContent = "";
+      imgPersonaje.src = "Imagenes/encripado.img";
+    } else {
+      imgPersonaje.src = "Imagenes/personaje.svg";
+      alert("Debes ingresar algun texto");
+    }
   }      
 }
