@@ -1,8 +1,11 @@
+var resultado = document.getElementById("resultado");
+
 function encriptar() {
   let texto = document.getElementById("texto").value;
   let tituloMensaje = document.getElementById("titulo");
   let parrafo = document.getElementById("parrafoTitulo");
   let personaje = document.getElementById("imgPersonaje");
+  
   
   let textoCifrado = texto
         .replace(/e/gi, "enter")
@@ -27,7 +30,7 @@ function encriptar() {
     
     const botonCopiar = document.querySelector(".botonCopiar");
     botonCopiar.addEventListener("click", copiar = () => {
-      var contenido = textoCifrado;
+      var contenido = document.getElementsByClassName("resultado").textContent;
       navigator.clipboard.writeText(contenido);
       console.log("hola");
     });

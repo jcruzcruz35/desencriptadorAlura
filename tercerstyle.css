@@ -179,15 +179,17 @@ background: #f3f5fc;
 }
 
 .cajaResultado{
-  width: 80%;
+  position: relative;
+  width: 20%;
   height: 15%;
-  left: 10%;
-  top: 80%;
+  left: 4%;
+  top: 3%;
   margin: 5% 0 0 62%;
-  background: red;
+  background: black;
 }
 
 .resultado{
+  text-align: center;
   width: 100%;
   top: 5%;
 }
